@@ -41,3 +41,9 @@ button {
     border: silver;
     border-style: outset;
 }
+button:hover {
+    transform: translate(2px, 2px);
+}
+.video {
+    display: none;
+}
