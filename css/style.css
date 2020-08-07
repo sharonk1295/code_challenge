@@ -45,5 +45,14 @@ button:hover {
     transform: translate(2px, 2px);
 }
 .video {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+    width: 100%;
+    z-index: 10;
+    overflow: auto; */
     display: none;
 }
