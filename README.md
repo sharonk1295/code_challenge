@@ -1,4 +1,4 @@
-<p align="center">'
+<p align="center">
     <h1>Activision: Code Challenge</h1>
 </p>
 
