@@ -1,0 +1,43 @@
+/* ==== FONTS ==== */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('hero_img_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.intro {
+    text-align: center;
+    z-index: 5;
+    /* border: purple 1px solid; */
+    margin: 0 auto;
+    padding-top: 40vh;
+}
+p {
+    font-family: 'Hind Guntur', sans-serif;
+    color: whitesmoke;
+    line-height: 30px;
+    font-size: 24px;
+}
+button {
+    margin-top: 10px;
+    padding: 12px 36px;
+    letter-spacing: 1px;
+    color: rgb(78, 76, 76);
+    font-weight: 600;
+    background: linear-gradient(0deg, rgba(192,193,194,1) 0%, rgba(214,217,213,0.9774207746478873) 100%);
+    border: silver;
+    border-style: outset;
+}
