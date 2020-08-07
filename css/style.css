@@ -1,5 +1,5 @@
 /* ==== FONTS ==== */
-@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur');
+@import url('https://fonts.googleapis.com/css2?family=Almarai');
 
 * {
     margin: 0;
@@ -26,22 +26,25 @@ body {
     padding-top: 40vh;
 }
 p {
-    font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Almarai', sans-serif;
     color: whitesmoke;
     line-height: 30px;
+    letter-spacing: 1px;
     font-size: 24px;
 }
 button {
-    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 3vh;
     padding: 12px 36px;
     letter-spacing: 1px;
     color: rgb(78, 76, 76);
     font-weight: 600;
-    background: linear-gradient(0deg, rgba(192,193,194,1) 0%, rgba(214,217,213,0.9774207746478873) 100%);
-    border: silver;
-    border-style: outset;
+    background: linear-gradient(0deg, rgba(192,193,194,1) 1%, rgba(242,242,242,0.9774207746478873) 88%);
+    border: white;
+    border-style: groove;
 }
 button:hover {
+    cursor: pointer;
     transform: translate(2px, 2px);
 }
 .video {
