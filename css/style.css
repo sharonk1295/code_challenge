@@ -45,14 +45,30 @@ button:hover {
     transform: translate(2px, 2px);
 }
 .video {
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 80%;
-    width: 100%;
+    margin-top: -40vh;
+    display: flex;
+    justify-content: center;
     z-index: 10;
-    overflow: auto; */
     display: none;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+#close-btn {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 460px) {
+    body {
+        background-image: url('Hero_img_mobile_01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+    iframe {
+        height: 400px;
+        width: 340px;
+    }
 }
